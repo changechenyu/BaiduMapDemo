@@ -125,6 +125,11 @@ public class MainActivity extends AppCompatActivity {
         mLocationClient.start();
     }
 
+
+    /**
+     * 更换验证码
+     * @param url
+     */
     public void createQRImage(String url) {
         try {
             //判断URL合法性
@@ -156,4 +161,5 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
 }

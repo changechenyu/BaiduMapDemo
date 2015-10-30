@@ -53,7 +53,6 @@ public class MyOrientationListener1 implements SensorEventListener
 	{
 		
 	}
-
 	@Override
 	public void onSensorChanged(SensorEvent event)
 	{
@@ -72,7 +71,6 @@ public class MyOrientationListener1 implements SensorEventListener
             
         }  
 	}
-	
 	public void setOnOrientationListener(OnOrientationListener onOrientationListener)
 	{
 		this.onOrientationListener = onOrientationListener ;
